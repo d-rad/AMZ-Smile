@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name": "AMZ Smile",
+  "description": "Redirects your Amazon browsing to Amazon's Smile program, which donates 5% of your purchase to charity. Based on SmileAlways by Josh Haimson and Dan Elitzer",
+  "version": "0.0.4",
+
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  },
+
+  "browser_action": {
+    "default_icon": "logo16.png",
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo48.png",
+    "128":  "logo128.png"
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "http://www.amazon.com/*",
+    "https://www.amazon.com/*",
+    "storage"
+  ]
+}
