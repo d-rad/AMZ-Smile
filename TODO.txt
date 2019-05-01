@@ -1,3 +1,0 @@
-save button state
-only activate script if button on
-redirect ALL amazon browsing, not just homepage
